@@ -1,2 +1,39 @@
-project:Qatar Demographic & Population Forecasting Project (2014 - 2026) Project OverviewThis project provides an in-depth demographic analysis of Qatar using Python.
-It focuses on understanding population distribution across different municipalities and their evolution over time. Additionally, it leverages Machine Learning techniques to forecast future population numbers and age group distributions through 2026.  Technical Features in the CodeThe Untitled17.ipynb notebook includes the following steps:Data Wrangling: Importing data from Excel files and cleaning it of missing or duplicate values to ensure analytical accuracy.  Data Restructuring & Translation: Mapping municipality names from Arabic to English (e.g., الدوحة to Doha) and renaming columns for better programmatic handling.  Exploratory Data Analysis (EDA): Utilizing libraries like Matplotlib and Seaborn to visualize population distribution geographically and by age group.  Predictive Modeling: Implementing Linear Regression models to predict future population counts with statistical accuracy (validated by R² Scores).  Key FindingsDoha Projections: The population of the Doha municipality is projected to reach approximately 1,305,930 by the year 2025.  Total Qatar Population: The model forecasts that the total population of the country will be approximately 3,280,791 by 2026.  Growing Age Groups: Analysis indicates that the (30-34) age group shows the highest growth and frequency in the 2026 forecasts.  Investment Priorities: Municipalities like Umm Salal and Al Daayen were identified as "High Priority" for investment based on their rapid growth rates compared to other regions.  Tech StackLanguage: PythonLibraries: Pandas, NumPy, Scikit-learn (LinearRegression), Matplotlib, Seaborn  Visualization Tools: Jupyter Lab / Power BI Dashboard
+This project analyzes the population distribution and growth trends across municipalities in Qatar from 2014 to 2023, and applies predictive modeling to estimate future population trends up to 2026.
+
+Key Questions Addressed  
+How is the total population geographically distributed by municipality?
+How has the population of each municipality evolved from 2014 to 2023?
+What is the population growth rate for each municipality?
+What is the percentage distribution of population across municipalities in 2023?
+What is the projected population of Doha in 2025?
+What is the predicted total population of Qatar in 2026?
+How is the population expected to be distributed across age groups in 2026?
+Which municipalities are high-priority growth hubs for future infrastructure investment?
+
+Key Insights & Findings
+Doha dominates with 41.67% of the total population
+Followed by Al Rayyan (29.05%) and Al Wakra (9.31%)
+Smaller municipalities like Al Shamal (0.59%) have minimal population share
+This shows a high population concentration in urban areas
+
+Growth & Priority Analysis
+High-Priority Growth Hubs:
+Umm Salal → strong growth (~147%)
+Al Daayen → rapid expansion (~131%)
+Al Shamal → emerging growth (~109%)
+Al Wakra → steady growth (~87%)
+
+
+Standard Growth Areas:
+Al Rayyan → large but moderate growth
+Doha → biggest population but slower growth (~48%)
+Al Khor → negative growth (-27%) 
+
+
+Population by Age Group (2026 Prediction)
+Largest Age Segments:
+30–34 → 572,842
+35–39 → 511,123
+25–29 → 432,883
+
+👉 هذا يدل أن:
